@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firt_Kt</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="submit">submit</string>
+    <string name="view">View</string>
+</resources>
