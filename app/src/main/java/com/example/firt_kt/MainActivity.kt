@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 val recModel: rec_model = rec_model(ed_name.text.toString(),ed_pass.text.toString())
                 success = DB_HELPER?.addData(recModel) as Boolean
                 if(success){
-                    Toast.makeText(this,"Data Inserted Sucessfully",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"Data Inserted",Toast.LENGTH_SHORT).show()
                 }
 
 
